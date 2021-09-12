@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/businessrecylerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A8A4A4"
+        android:fitsSystemWindows="true"
+        android:padding="2dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
